@@ -12,8 +12,9 @@ object KnapSack {
       // base profit
 //      var profit1 = 0
       if(weight(currentIndex) <= capacity) {
-        val profit1 = profit(currentIndex) + kn
-      }
+        val profit1 = profit(currentIndex)
+        0
+      } else 0
     }
     innerFunc(profit, weight, capacity, 0)
   }

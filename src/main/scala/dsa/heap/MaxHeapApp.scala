@@ -49,7 +49,7 @@ case class MaxHeap(heap: Array[Int], size: Int, maxSize: Int) {
     if (isLeaf(pos))
       this
     else {
-
+      this // todo: not completed
     }
   }
 
